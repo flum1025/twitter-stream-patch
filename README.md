@@ -1,6 +1,6 @@
-# Twitter::Stream::Patch
+# twitter-strem-patch
 
-This gem is patch for [twitter](https://github.com/sferik/twitter). Patch for when the stream is disconnected.  When the stream disconnected, raise Twitter::Error::StreamDisconnect.
+This gem is patch for [twitter](https://github.com/sferik/twitter). Patch for when the stream is disconnected.  When the stream disconnected, raise `Twitter::Error::StreamDisconnect`.
 
 
 ## Installation
