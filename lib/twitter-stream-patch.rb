@@ -1,5 +1,5 @@
-require "twitter/stream/patch/version"
-require 'twitter/error'
+require "twitter-stream-patch/version"
+require 'twitter'
 
 Twitter::Error::StreamDisconnect = Class.new(Twitter::Error::ServerError)
 
